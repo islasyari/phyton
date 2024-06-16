@@ -1,4 +1,4 @@
-def custom_song(greeting, location, adjective, action_verb, feeling, town, time, verb):
+def adele_song(greeting, location, adjective, action_verb, feeling, town, time, verb):
     print(f"{greeting}, it's {adjective}")
     print("I was wondering if after all these", time, "you'd like to", action_verb)
     print("To go over everything")
