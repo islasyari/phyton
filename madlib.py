@@ -43,4 +43,4 @@ time = input("Enter a word to describe a type of time. ex: day, period of days, 
 verb = input("Enter a verb of your choice: ")
 
 # Call the function
-custom_song(greeting=greeting, location=location, adjective=adjective, action_verb=action_verb, feeling=feeling, town=town, time=time, verb=verb)
+adele_song(greeting=greeting, location=location, adjective=adjective, action_verb=action_verb, feeling=feeling, town=town, time=time, verb=verb)
