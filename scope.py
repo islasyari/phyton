@@ -1,13 +1,13 @@
-# Conversion variables (global and constant)
+# Conversion variables. 
 POUNDS_TO_KG = 0.453592
 INCHES_TO_METERS = 0.0254
 
 def main():
-    # Input
+    # Input to convert
     weight_pounds = float(input("Enter your weight in pounds: "))
     height_inches = float(input("Enter your height in inches: "))
 
-    # Conversion to Metric
+    # Conversion to Meters
     weight_kg = weight_pounds * POUNDS_TO_KG
     height_meters = height_inches * INCHES_TO_METERS
 
@@ -24,7 +24,7 @@ def main():
     else:
         category = "Obese"
 
-    # Output
+    # print output
     print(f"Your BMI is: {bmi:.2f}")
     print(f"You are in the {category} category.")
 
